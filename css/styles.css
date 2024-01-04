@@ -126,6 +126,7 @@ a {
 .hero {
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -138,7 +139,6 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 48px;
-    max-width: 1440px;
 }
 
 .hero-title {
@@ -405,12 +405,10 @@ a {
     margin-bottom: 16px;
 }
 
-.footer-coontainer {
+.footer-container {
     display: flex;
-    flex-direction: row;
     align-items: baseline;
     justify-content: start;
-    align-items: flex-start;
     align-self: stretch;
 }
 
